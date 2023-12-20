@@ -21,8 +21,8 @@
       </div>
       <!-- section 2 -->
       <div class="text-white bg-teal-500 pt-10 pb-10 pl-5 pr-[14rem] text-4xl">
-        <h1 class="mb-10">Withdraw</h1>
-        <h1>$ <span>00</span></h1>
+        <h1 class="mb-10" id="withdraw">Withdraw</h1>
+        <h1>$ <span id="withdrawAmount">00</span></h1>
       </div>
       <!-- section 3 -->
       <div class="text-white bg-pink-500 pt-10 pb-10 pl-5 pr-[14rem] text-4xl">
@@ -39,16 +39,25 @@
           id="depositInput"
           placeholder="$ Amount you want ot deposit"
         />
-        <button id="depositBtn">Deposit</button>
+        <button class="bg-yellow-500 px-5 py-2 mt-5" id="depositBtn">
+          Deposit
+        </button>
       </div>
       <!-- withdraw -->
       <div class="bg-teal-500 pt-10 pb-10 pl-5 pr-[10rem] text-4xl">
-        <h1 class="mb-10">Deposit</h1>
-        <input type="text" id="" placeholder="$ Amount you want ot Withdraw" />
-        <button>withdraw</button>
+        <h1 class="mb-10">Your withdraw</h1>
+        <input
+          type="text"
+          id="withdrawInput"
+          placeholder="$ Amount you want ot deposit"
+        />
+        <button class="bg-yellow-500 px-5 py-2 mt-5" id="withdrawBtn">
+          withdraw
+        </button>
       </div>
     </section>
 
     <script src="index.js"></script>
+    <script src="withdraw.js"></script>
   </body>
 </html>
