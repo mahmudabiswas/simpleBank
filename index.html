@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-5xl text-center mt-10 mb-10">
+      Welcome to my <span class="text-purple-400">simple bank !!!!</span>
+    </h1>
+    <section class="flex gap-10 place-content-around">
+      <!-- section 1 -->
+      <div
+        class="text-white bg-yellow-500 pt-10 pb-10 pl-5 pr-[14rem] text-4xl"
+      >
+        <h1 class="mb-10">Deposit</h1>
+
+        <h1>$ <span id="depositElement">00</span></h1>
+      </div>
+      <!-- section 2 -->
+      <div class="text-white bg-teal-500 pt-10 pb-10 pl-5 pr-[14rem] text-4xl">
+        <h1 class="mb-10">Withdraw</h1>
+        <h1>$ <span>00</span></h1>
+      </div>
+      <!-- section 3 -->
+      <div class="text-white bg-pink-500 pt-10 pb-10 pl-5 pr-[14rem] text-4xl">
+        <h1 class="mb-10">Balance</h1>
+        <h1>$ <span id="blanceElement">100</span></h1>
+      </div>
+    </section>
+    <section class="flex gap-5 place-content-between mt-28 ml-10 mr-10 mb-32">
+      <!-- deposit -->
+      <div class="bg-blue-500 pt-10 pb-10 pl-5 pr-[14rem] text-4xl">
+        <h1 class="mb-10">Your Deposit</h1>
+        <input
+          type="text"
+          id="depositInput"
+          placeholder="$ Amount you want ot deposit"
+        />
+        <button id="depositBtn">Deposit</button>
+      </div>
+      <!-- withdraw -->
+      <div class="bg-teal-500 pt-10 pb-10 pl-5 pr-[10rem] text-4xl">
+        <h1 class="mb-10">Deposit</h1>
+        <input type="text" id="" placeholder="$ Amount you want ot Withdraw" />
+        <button>withdraw</button>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
